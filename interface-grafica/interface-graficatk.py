@@ -4,11 +4,15 @@ import tkinter as tk
 # Define a função que será executada ao clicar no botão
 def acao_personalizada():
     print("Botão personalizado clicado!")
-    
+
 
 # 1. Cria a janela principal apenas UMA vez.
 janela = tk.Tk()
 janela.title("home")
+
+#comfigura a cor de fundo do tkinter 
+janela.configure(bg="black")
+janela.geometry("900x900") # Define o tamanho da janela
 
 
 
